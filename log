@@ -43,3 +43,21 @@ Sat 20 Aug 2022 01:48:06 AM UTC:
  tests:  3|5
 total_score: 15/70
 3b757c6
+Sat 20 Aug 2022 02:28:15 AM UTC: 
+ list.c | 5 +++++
+ 1 file changed, 5 insertions(+)
+In file included from test.c:5:
+list.c: In function ‘nextList’:
+list.c:48:22: error: expected ‘)’ before ‘!’ token
+   48 |    if (!list->current!list->current->next)
+      |       ~              ^
+      |                      )
+list.c: At top level:
+list.c:53:5: error: expected identifier or ‘(’ before ‘return’
+   53 |     return NULL;
+      |     ^~~~~~
+list.c:54:1: error: expected identifier or ‘(’ before ‘}’ token
+   54 | }
+      | ^
+Compilation failed
+b04b425
