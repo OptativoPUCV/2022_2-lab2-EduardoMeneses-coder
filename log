@@ -2,3 +2,16 @@ Sat 20 Aug 2022 01:14:15 AM UTC:
  tests:  0|6
 total_score: 0/70
 adbe7f1
+Sat 20 Aug 2022 01:36:14 AM UTC: 
+ list.c | 4 ++++
+ 1 file changed, 4 insertions(+)
+In file included from test.c:5:
+list.c: In function ‘createList’:
+list.c:33:8: error: ‘List’ {aka ‘struct List’} has no member named ‘first’
+   33 |   list -> first = NULL;
+      |        ^~
+list.c:35:8: error: ‘List’ {aka ‘struct List’} has no member named ‘last’
+   35 |   list -> last = NULL;
+      |        ^~
+Compilation failed
+4ec8500
