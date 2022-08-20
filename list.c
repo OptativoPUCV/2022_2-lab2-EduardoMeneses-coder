@@ -30,9 +30,9 @@ Node * createNode(void * data) {
 
 List * createList() {
   List* list = (List*) calloc(1,sizeof(List));
-  list -> first = NULL;
+  list -> head = NULL;
   list -> current = NULL;
-  list -> last = NULL;
+  list -> tail = NULL;
      return NULL;
 }
 

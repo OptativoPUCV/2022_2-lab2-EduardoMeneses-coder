@@ -15,3 +15,9 @@ list.c:35:8: error: ‘List’ {aka ‘struct List’} has no member named ‘la
       |        ^~
 Compilation failed
 4ec8500
+Sat 20 Aug 2022 01:38:22 AM UTC: 
+ list.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  0|6
+total_score: 0/70
+30bc67b
