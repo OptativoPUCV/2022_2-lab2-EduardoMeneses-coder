@@ -76,3 +76,15 @@ list.c:54:1: error: expected identifier or ‘(’ before ‘}’ token
       | ^
 Compilation failed
 34cee41
+Sat 20 Aug 2022 02:34:35 AM UTC: 
+ list.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+list.c:53:4: error: expected identifier or ‘(’ before ‘return’
+   53 |    return NULL;
+      |    ^~~~~~
+list.c:54:1: error: expected identifier or ‘(’ before ‘}’ token
+   54 | }
+      | ^
+Compilation failed
+44f7b50
