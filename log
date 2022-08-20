@@ -27,3 +27,13 @@ Sat 20 Aug 2022 01:40:02 AM UTC:
  tests:  1|5
 total_score: 10/70
 aaf8430
+Sat 20 Aug 2022 01:47:37 AM UTC: 
+ list.c | 8 ++++++++
+ 1 file changed, 8 insertions(+)
+In file included from test.c:5:
+list.c: In function ‘lastList’:
+list.c:54:19: error: ‘List’ {aka ‘struct List’} has no member named ‘last’
+   54 |       return list -> last -> data;
+      |                   ^~
+Compilation failed
+9c85992
